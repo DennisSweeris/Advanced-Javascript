@@ -1,0 +1,33 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    max-height: 100vh;
+}
+
+ul {
+    margin: 1rem;
+}
+
+li {
+    list-style: none;
+    font-size: 2rem;
+}
+
+button {
+    padding: 1rem;
+}
+button:hover {
+    color: #fff;
+    background-color: #000;
+}
