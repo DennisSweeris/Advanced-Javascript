@@ -154,9 +154,17 @@ const maxWeight = superheroes
     .filter((h) => h.weight != "unknown")
     .map((h) => parseInt(h.weight))
     .reduce((a, b) => Math.max(a, b));
+<<<<<<< HEAD
 // console.log(maxWeight);
+=======
+console.log(maxWeight);
+>>>>>>> e6592d414a19db7de38ee07417028e4b44a7ed8c
 
 const heaviestHero = superheroes
     .filter((h) => h.weight == maxWeight)
     .map((h) => h.name);
+<<<<<<< HEAD
 console.log(`De zwaarste superheld is: The ${heaviestHero}, and he weights ${maxWeight} pounds.` );
+=======
+console.log(`De zwaarste superheld is: ${heaviestHero}`);
+>>>>>>> e6592d414a19db7de38ee07417028e4b44a7ed8c
